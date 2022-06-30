@@ -2,3 +2,4 @@ sleeveless dress~~150000~~  Material:  Cotton 100%  Care Info: Cold Wash~~Eddie~
 Vneck Blouse~~138000~~  Material:  Polyester 100%  Care Info: Dry Clean, Hand Wash~~Wish~~images/woman1.jpg~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
 Basic Tshirt~~200000~~  Material:  Polyester 100%~~Justone~~images/Justone1.jpg~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
 new product~~130000~~nothing~~me~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~6~~0~~init Comment~~false~~false
+my product~~12000~~just ksjddj~~me~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~7~~0~~init Comment~~false~~false
