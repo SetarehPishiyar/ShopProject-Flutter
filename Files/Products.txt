@@ -1,12 +1,3 @@
-my blouse~~1500~~nothing~~me~~images/woman1.jpg~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
-my blouse~~1500~~nothing~~me~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
-my blouse~~1500~~nothing~~me~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
-my blouse~~1500~~nothing~~me~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
-my blouse~~1500~~nothing~~me~~images/woman1.jpg~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
-my blouse~~1500~~nothing~~me~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
-my blouse~~1500~~nothing~~me~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
-my blouse~~1500~~nothing~~me~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
-~~~~~~~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~~~~~~~false~~false
-test test~~40000~~this is a test~~you~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~5~~~~~~false~~false
-~~~~~~~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~~~~~~~false~~false
-~~~~~~~~images/noImage.png~~category~~subcategory~~colors~~Sizes~~~~~~~~false~~false
+sleeveless dress~~150000~~  Material:  Cotton 100%  Care Info: Cold Wash~~Eddie~~images/Eddie1.jpg~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
+Vneck Blouse~~138000~~  Material:  Polyester 100%  Care Info: Dry Clean, Hand Wash~~Wish~~images/woman1.jpg~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
+Basic Tshirt~~200000~~  Material:  Polyester 100%~~Justone~~images/Justone1.jpg~~category~~subcategory~~colors~~Sizes~~3~~0~~Comments~~false~~false
