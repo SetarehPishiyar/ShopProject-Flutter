@@ -111,7 +111,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     if (value == null || value.isEmpty) {
                       return 'Phone Number Can not be empty';
                     }
-                    if(!value.startsWith("09") || value.length<12){
+                    if(!value.startsWith("09") || value.length<11){
                       return "Enter a valid phone number";
                     }
                     return null;
@@ -136,7 +136,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     if (value == null || value.isEmpty) {
                       return 'Password Can not be empty';
                     }
-                    RegExp regex = new RegExp(r"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}$");
+                    RegExp regex = new RegExp(r"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}$");
                     if (!regex.hasMatch(value))
                       return 'PassWord Should Contain at least one LowerCase-UpperCase-Number and Character';
                     else
