@@ -37,7 +37,7 @@ public class controller {
         String[] splitedData = userData.split("~~");
 
         for (User u : users) {
-            if (u.getPhonenumber().equalsIgnoreCase(splitedData[1])) {
+            if (u.getPhonenumber().equals(splitedData[1])) {
                 if (u.getPassword().equals(splitedData[2]))
                     return true;
                 else
@@ -57,7 +57,7 @@ public class controller {
         for (int i=0; i<splited.length;i++){
             test[i] = splited[i];
         }
-        toWrite = test[1]+"~~"+test[3]+"~~"+test[5]+"~~"+test[2]+"~~"+"images/noImage.png"+"~~"+test[8]+"~~"+test[9]+"~~"+test[6]+"~~"+test[7]+"~~"+test[4]+"~~"+"~~"+"~~"+"false"+"~~"+"false";
+        toWrite = test[1]+"~~"+test[3]+"~~"+test[5]+"~~"+test[2]+"~~"+"images/noImage.png"+"~~"+test[8]+"~~"+test[9]+"~~"+test[6]+"~~"+test[7]+"~~"+test[4]+"~~"+"0"+"~~"+"init Comment"+"~~"+"false"+"~~"+"false";
         writer.write(toWrite + "\n");
         writer.close();
 
