@@ -10,7 +10,7 @@ class Product {
   List<String> colors;
   List<String> sizes;
   int Count;
-  double Rate;
+  double Rate= 0.0;
   List<String> Comments;
   bool inBasket = false;
   bool saved = false;

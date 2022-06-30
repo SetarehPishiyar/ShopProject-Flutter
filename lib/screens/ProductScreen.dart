@@ -201,7 +201,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                                 fontSize: 15),
                                           ),
                                           Text(
-                                            "           Rate :  Count : ",
+                                            "           Rate : "+widget.Rate.toString()+"   Count : "+widget.Count.toString() ,
                                             style: TextStyle(
                                                 fontFamily: "Akshar",
                                                 color: Colors.black,
@@ -216,7 +216,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                       Text("  "),
                                       Icon(Icons.color_lens_outlined),
                                       Text(
-                                        "Colors",
+                                        "Colors:   "+widget.colors.toString(),
                                         style: TextStyle(fontFamily: 'Akshar'),
                                       ),
                                     ],
@@ -243,6 +243,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                       ),
                                       onPressed: () {
                                         widget.basketProducts.add(new Product(widget.title, widget.price, widget.Count, widget.description, widget.seller, widget.colors, widget.sizes, widget.category, widget.subCategory, widget.imageURL));
+                                        widget.Count--;
                                         Navigator.push(
                                             context,
                                             MaterialPageRoute(

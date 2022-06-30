@@ -17,6 +17,7 @@ class AddProduct extends StatelessWidget {
   List<Product> allProducts;
   List<Product> basketProducts;
   List<User> Users;
+  String Response = "";
   AddProduct(List<Product> allProducts,List<Product> basketProducts,  List<User> Users){
     this.allProducts = allProducts;
     this.basketProducts = basketProducts;
@@ -423,6 +424,9 @@ class _filterChipWidgetState extends State<filterChipWidget> {
       onSelected: (isSelected) {
         setState(() {
           _isSelected = isSelected;
+          if(_isSelected){
+
+          }
         });
       },
       selectedColor: Colors.brown[300],
