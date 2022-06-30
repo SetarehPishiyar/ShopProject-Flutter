@@ -6,6 +6,7 @@ import 'package:project/screens/homepage.dart';
 import 'package:flutter/services.dart';
 import 'package:project/screens/Product.dart';
 import 'package:flutter/painting.dart';
+import 'dart:convert';
 
 import 'User.dart';
 
@@ -249,9 +250,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
         final values = res.split("@@");
         for(int i=0; i<values.length-1;i++){
           final toWrite = values[i].split("~~");
-          List<String> colors = toWrite[7].split("-");
-          List<String> sizes = toWrite[8].split("-");
-          Product newProduct = new Product(toWrite[0],int.parse(toWrite[1]),int.parse(toWrite[9]),toWrite[2],toWrite[3],colors,sizes,toWrite[5],toWrite[6],toWrite[4]);
+          // List<String> colors = toWrite[7].split("-");
+          // List<String> sizes = toWrite[8].split("-");
+          Product newProduct = new Product(toWrite[0],int.parse(toWrite[1]),int.parse(toWrite[9]),toWrite[2],toWrite[3],new List(),new List(),toWrite[5],toWrite[6],toWrite[4]);
           widget.allProducts.add(newProduct);
         }
       });
